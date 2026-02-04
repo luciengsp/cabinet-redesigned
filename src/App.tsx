@@ -22,7 +22,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/cabinet-redesigned">
           <Layout>
             <Routes>
               <Route path="/" element={<HomePage />} />
