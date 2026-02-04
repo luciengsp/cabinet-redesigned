@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/cabinet-redesigned/", // AJOUTE CETTE LIGNE (vérifie bien le nom de ton projet)
   server: {
     host: "::",
     port: 8080,
